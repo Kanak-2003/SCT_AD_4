@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#91053A"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#D784A6"
+        android:fontFamily="@font/autour_one"
+        android:text="Scan QR Code"
+        android:textColor="#0B0B0B"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate QR Code"
+        android:backgroundTint="#D784A6"
+        android:fontFamily="@font/autour_one"
+        android:textColor="#0B0B0B"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
